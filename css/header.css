@@ -677,7 +677,10 @@ http://codepen.io/SuperWaffles/
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
   .header {
-    height: 90px;
+    height: 120px;
+  }
+  .glitch {
+    height: 30%;
   }
   .name-glitched {
     font-size: 3em;

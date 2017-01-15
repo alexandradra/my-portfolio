@@ -1,0 +1,55 @@
+
+.lang-row {
+  height: 100%;
+}
+.lang-row img {
+  height: 75px;
+  display: block;
+  margin: 0 auto;
+}
+
+.progress-bar, .level {
+  border-radius: 3px;
+}
+.progress-bar {
+    position: relative;
+    background-color: black;
+    height: 20px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.level {
+    position: absolute;
+    top: 14%;
+    left: 1%;
+    display: inline-block;
+    margin: auto;
+    height: 77%;
+}
+
+#html-progress {
+    width: 95%;
+    /*background-image: linear-gradient(90deg, #E46234, #E44D26);*/
+    background-color: #E44D26;
+}
+#css-progress {
+    width: 90%;
+    background-color: #1572B6;
+}
+#js-progress {
+    width: 40%;
+    background-color: #F0DB4F;
+}
+#bootstrap-progress {
+    width: 70%;
+    background-color: #5B4282;
+}
+#jquery-progress {
+    width: 30%;
+    background-color: #0868AC;
+}
+#angular-progress {
+    width: 20%;
+    background-color: #C4473A;
+}
