@@ -1,0 +1,26 @@
+.rainbow-ctn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.rainbow-ctn .col-xs-1 {
+  height: 3px;
+  margin: 0;
+  padding: 0;
+}
+.blue {
+  background-color: #329ebb;
+}
+.green {
+  background-color: #b1bf52;
+}
+.yellow {
+  background-color: #ebdf41;
+}
+.orange {
+  background-color: #e48c5c;
+}
+.pink {
+  background-color: #d53492;
+}

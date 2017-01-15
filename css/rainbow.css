@@ -24,3 +24,37 @@
 .pink {
   background-color: #d53492;
 }
+
+.rvb-ctn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.07;
+}
+
+.rvb-ctn .col-xs-1 {
+    height: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.rvbred {
+    background-color: #BB2723;
+}
+
+.rvbyellow {
+    background-color: #DCC038;
+}
+
+.rvbgreen {
+    background-color: #61CC31;
+}
+
+.rvblightblue {
+    background-color: #23DCD4;
+}
+
+.rvbblue {
+    background-color: #2223DD;
+}

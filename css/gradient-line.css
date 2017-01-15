@@ -1,0 +1,11 @@
+.gradient-line {
+    opacity: 0.07;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(90deg, #BB2723 0%, #DCC038 20%, #61CC31 40%, #23DCD4 60%, #2223DD 80%);
+}
