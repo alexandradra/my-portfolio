@@ -517,26 +517,18 @@ Many thanks to http://codepen.io/alexpivtorak/ :-)
 }
 .header {
   width: 100%;
-  height: 250px;
+  height: 150px;
   position: relative;
+  background-color: black;
 }
+/******BANNER HEADER******/
 .glitch {
   overflow-y: hidden;
   width: 100%;
-  height: 100%;
+  height: 15%;
   position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
   bottom: 0;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  font: 35px "Roboto", helvetica, sans-serif;
-  font-font-weight: 100;
-  letter-spacing: 0.3em;
   background-image: url(../images/whitenoise-361x370.png);
-  text-shadow: 2px 0 1px #f6050a, -2px 0 1px #1cf2f2;
   -moz-animation: noise 0.3s infinite;
   -webkit-animation: noise 0.3s infinite;
   animation: noise 0.3s infinite;
@@ -566,4 +558,112 @@ Many thanks to http://codepen.io/alexpivtorak/ :-)
   -moz-animation: glitch 3s infinite alternate;
   -webkit-animation: glitch 3s infinite alternate;
   animation: glitch 3s infinite alternate;
+}
+/******NAME GLITCHED******/
+.name-glitched {
+  font-family: 'VT323', sans-serif;
+  color: white;
+  font-size: 5em;
+  position: absolute;
+  top:15%;
+  right: 8%;
+  margin: 0 auto;
+}
+
+.name-glitched:before,
+.name-glitched:after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.name-glitched::before {
+  left: 2px;
+  text-shadow: -2px 0 #E83045;
+  background: black;
+  clip: rect(44px, 450px, 56px, 0);
+  -webkit-animation: glitch-anim-1 2s infinite linear alternate-reverse;
+}
+
+.name-glitched::after {
+  left: -2px;
+  text-shadow: -2px solid blue;
+  background: black;
+  clip: rect(44px, 450px, 56px, 0);
+  animation: glitch-anim-2 2s infinite linear alternate-reverse;
+  -webkit-animation: glitch-anim-2 2s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes glitch-anim-1 {
+  0% {
+    clip: rect(97px, 9999px, 50px, 0);
+  }
+  10% {
+    clip: rect(42px, 9999px, 75px, 0);
+  }
+  20% {
+    clip: rect(34px, 9999px, 90px, 0);
+  }
+  30% {
+    clip: rect(1px, 9999px, 27px, 0);
+  }
+  40% {
+    clip: rect(94px, 9999px, 21px, 0);
+  }
+  50% {
+    clip: rect(47px, 9999px, 4px, 0);
+  }
+  60% {
+    clip: rect(88px, 9999px, 87px, 0);
+  }
+  70% {
+    clip: rect(87px, 9999px, 96px, 0);
+  }
+  80% {
+    clip: rect(17px, 9999px, 99px, 0);
+  }
+  90% {
+    clip: rect(10px, 9999px, 100px, 0);
+  }
+  100% {
+    clip: rect(59px, 9999px, 100px, 0);
+  }
+}
+@-webkit-keyframes glitch-anim-2 {
+  0% {
+    clip: rect(24px, 9999px, 86px, 0);
+  }
+  10% {
+    clip: rect(50px, 9999px, 33px, 0);
+  }
+  20% {
+    clip: rect(25px, 9999px, 44px, 0);
+  }
+  30% {
+    clip: rect(67px, 9999px, 33px, 0);
+  }
+  40% {
+    clip: rect(52px, 9999px, 18px, 0);
+  }
+  50% {
+    clip: rect(72px, 9999px, 48px, 0);
+  }
+  60% {
+    clip: rect(3px, 9999px, 26px, 0);
+  }
+  70% {
+    clip: rect(73px, 9999px, 50px, 0);
+  }
+  80% {
+    clip: rect(56px, 9999px, 50px, 0);
+  }
+  90% {
+    clip: rect(46px, 9999px, 39px, 0);
+  }
+  100% {
+    clip: rect(35px, 9999px, 84px, 0);
+  }
 }
