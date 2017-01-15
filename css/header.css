@@ -574,6 +574,7 @@ http://codepen.io/SuperWaffles/
 .name-glitched {
   font-family: 'VT323', sans-serif;
   color: white;
+  text-shadow: -2px 0 blue;
   font-size: 5em;
   position: absolute;
   top:15%;
