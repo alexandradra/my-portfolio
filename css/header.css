@@ -1,8 +1,12 @@
 /* **********************
-This glitch effect is inspired by this Codepen Project :
+The glitch effect is inspired by these Codepen Projects :
 http://codepen.io/alexpivtorak/pen/GgZYbL
+http://codepen.io/SuperWaffles/pen/BcLfA
 
-Many thanks to http://codepen.io/alexpivtorak/ :-)
+Many thanks to :
+http://codepen.io/alexpivtorak/
+http://codepen.io/SuperWaffles/
+:-)
 *********************** */
 
 @-moz-keyframes glitch {
@@ -665,5 +669,17 @@ Many thanks to http://codepen.io/alexpivtorak/ :-)
   }
   100% {
     clip: rect(35px, 9999px, 84px, 0);
+  }
+}
+
+/*********MEDIA QUERIES*********/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  .header {
+    height: 90px;
+  }
+  .name-glitched {
+    font-size: 3em;
   }
 }
