@@ -7,7 +7,7 @@
     height: 20px;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(90deg, #BB2723 0%, #DCC038 20%, #61CC31 40%, #23DCD4 60%, #2223DD 80%);
+    background-image: linear-gradient(90deg, #BB2723 20%, #DCC038 40%, #61CC31 60%, #23DCD4 80%, #2223DD 100%);
 }
 @media only screen
 and (min-device-width : 375px)
