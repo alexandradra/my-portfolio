@@ -709,4 +709,7 @@ and (max-device-width : 667px) {
   .name-glitched {
     font-size: 3em;
   }
+  .scroll-me img {
+    width: 50%;
+  }
 }
