@@ -699,8 +699,11 @@ http://codepen.io/SuperWaffles/
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
+  body {
+    overflow-x: hidden;
+  }
   .header {
-    height: 120px;
+    height: 98vh;
     background-color: rgba(0,0,0,0.3);
   }
   .name-glitched {
