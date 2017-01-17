@@ -524,12 +524,27 @@ http://codepen.io/SuperWaffles/
   height: 100vh;
   position: relative;
   background-color: rgba(0,0,0,0.5);
+  padding-bottom: 5%;
 }
 .avatar-ctn, .avatar-ctn img {
   height: 100%;
 }
 .avatar-ctn img {
   opacity: 0.5;
+}
+.scroll-me {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  margin-left: 50%;
+  border-left: 1px solid white;
+  padding: 1%;
+}
+.scroll-me p {
+  font-family: VT323;
+}
+.scroll-me img {
+  width: 20%;
 }
 
 /******************GLITCH ONLY************************/
