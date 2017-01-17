@@ -535,7 +535,7 @@ http://codepen.io/SuperWaffles/
 .scroll-me {
   box-sizing: border-box;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   margin-left: 50%;
   border-left: 1px solid white;
   padding: 1%;
@@ -592,7 +592,7 @@ http://codepen.io/SuperWaffles/
   text-shadow: -2px 0 blue;
   font-size: 5em;
   position: absolute;
-  top:15%;
+  top:10%;
   right: 8%;
   margin: 0 auto;
 }
@@ -709,7 +709,10 @@ and (max-device-width : 667px) {
   .name-glitched {
     font-size: 3em;
   }
+  .scroll-me {
+    padding: 3% 5% 10% 5%;
+  }
   .scroll-me img {
-    width: 50%;
+    width: 80%;
   }
 }
