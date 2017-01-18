@@ -525,7 +525,7 @@
   height: 200%;
   position: fixed;
   bottom: 0;
-  background-image: url(/images/whitenoise-361x370.png);
+  background-image: url(../images/whitenoise-361x370.png);
   -moz-animation: noise 0.3s infinite;
   -webkit-animation: noise 0.3s infinite;
   animation: noise 0.3s infinite;
@@ -542,7 +542,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  background: url(/images/whitenoise-361x370 -opacity40.png);
+  background: url(../images/whitenoise-361x370 -opacity40.png);
   -moz-animation: bar 0.5s infinite;
   -webkit-animation: bar 0.5s infinite;
   animation: bar 0.5s infinite;
