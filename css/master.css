@@ -111,10 +111,10 @@ h2 {
 }
 
 /*********MEDIA QUERIES*********/
-
+/*MOBILE*/
 @media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
   h2 {
     margin-top: 0;
   }
@@ -123,7 +123,7 @@ and (max-device-width : 667px) {
     padding-bottom: 10% !important;
     background-color: rgba(0,0,0,0.3);
   }
-  .languages-ctn h2 {
+  .no-txt h2 {
     padding: 0;
   }
 }

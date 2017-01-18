@@ -697,13 +697,13 @@ http://codepen.io/SuperWaffles/
 
 /*********MEDIA QUERIES*********/
 @media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
   body {
     overflow-x: hidden;
   }
   .header {
-    height: 98vh;
+    height: 100vh;
     background-color: rgba(0,0,0,0.3);
   }
   .name-glitched {
