@@ -67,13 +67,29 @@ li {
 .background h2, .studies h2 {
   padding-top: 5.5%;
 }
+.exp {
+  position: relative;
+}
+.exp li {
+
+}
 .icon-alex img{
   width: 5%;
+  padding: 1px;
 }
-h3, .workingtime {
+h3, .cheatspace, .workingtime {
   display: inline-block;
 }
+h3 {
+  margin-left: 2%;
+}
+.cheatspace {
+  width: 25%;
+}
 .workingtime {
+  /*text-align: left;
+  position: absolute;
+  right: 30%;*/
   margin-left: 10%;
 }
 
