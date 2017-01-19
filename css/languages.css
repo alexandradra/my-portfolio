@@ -29,12 +29,12 @@
 }
 
 #html-progress {
-    width: 95%;
+    width: 80%;
     /*background-image: linear-gradient(90deg, #E46234, #E44D26);*/
     background-color: #E44D26;
 }
 #css-progress {
-    width: 90%;
+    width: 70%;
     background-color: #1572B6;
 }
 #js-progress {
