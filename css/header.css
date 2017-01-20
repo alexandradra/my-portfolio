@@ -23,7 +23,7 @@
   font-family: VT323;
 }
 .scroll-me img {
-  width: 20%;
+  width: 30%;
 }
 
 /*********MEDIA QUERIES*********/
@@ -42,7 +42,7 @@ and (max-device-width : 480px) {
     font-size: 3em;
   }
   .scroll-me {
-    padding: 3% 5% 10% 5%;
+    padding: 3% 5% 13% 5%;
   }
   .scroll-me img {
     width: 80%;
