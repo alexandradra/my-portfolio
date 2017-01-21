@@ -118,5 +118,8 @@ and (max-device-width : 480px) {
   .exp-left {
     width: 70%;
   }
+  .studies {
+    margin-top: 15%;
+  }
 
 }
