@@ -1,50 +1,70 @@
 .header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 5%;
+}
+.social-row-ctn {
   width: 100%;
-  height: 100vh;
-  position: relative;
-  background-color: rgba(0,0,0,0.5);
-  padding-bottom: 5%;
-}
-.avatar-ctn, .avatar-ctn img {
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.avatar-ctn img {
-  opacity: 0.5;
-}
-.scroll-me {
-  box-sizing: border-box;
-  position: absolute;
-  bottom: -1px;
-  margin-left: 50%;
-  border-left: 1px solid white;
-  padding: 1%;
-}
-.scroll-me p {
-  font-family: VT323;
-}
-.scroll-me img {
+.social-row {
   width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.social-row a {
+  width: 100%;
+  display: block;
+}
+.social-row a img {
+  height: 50px;
+  display: block;
+  margin: 0 auto;
 }
 
+.scroll-me {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -1px;
+    margin-left: 50%;
+    border-left: 1px solid white;
+    padding: 1%;
+}
+.scroll-me p {
+    font-family: VT323;
+}
+
+.scroll-me img {
+    width: 30%;
+    margin: 20px;
+}
+
+
 /*********MEDIA QUERIES*********/
+
+
 /*MOBILE*/
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-  body {
-    overflow-x: hidden;
-  }
-  .header {
-    height: 100vh;
-    background-color: rgba(0,0,0,0.2);
-  }
-  .name-glitched {
-    font-size: 3em;
-  }
-  .scroll-me {
-    padding: 3% 5% 13% 2%;
-  }
-  .scroll-me img {
-    width: 100%;
-  }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .name-glitched {
+        font-size: 3em;
+    }
+    .scroll-me {
+        padding: 3% 5% 13% 2%;
+    }
+    .scroll-me img {
+        width: 100%;
+    }
 }
