@@ -58,8 +58,11 @@
         height: 100vh;
         background-color: rgba(0, 0, 0, 0.2);
     }
-    .name-glitched {
-        font-size: 3em;
+    .social-row {
+      width: 80%;
+    }
+    .social-row a img {
+      height: 40px;
     }
     .scroll-me {
         padding: 3% 5% 13% 2%;

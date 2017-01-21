@@ -668,3 +668,9 @@
     clip: rect(35px, 9999px, 84px, 0);
   }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .name-glitched {
+        font-size: 3em;
+    }
+}
