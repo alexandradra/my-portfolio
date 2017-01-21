@@ -39,6 +39,10 @@
     font-family: VT323;
 }
 
+.scroll-me a {
+  width: 100%;
+}
+
 .scroll-me img {
     width: 30%;
     margin: 20px;
@@ -59,7 +63,7 @@
         background-color: rgba(0, 0, 0, 0.2);
     }
     .social-row {
-      width: 80%;
+      width: 90%;
     }
     .social-row a img {
       height: 40px;
@@ -69,5 +73,6 @@
     }
     .scroll-me img {
         width: 100%;
+        margin: 0;
     }
 }
