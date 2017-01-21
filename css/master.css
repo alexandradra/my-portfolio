@@ -26,9 +26,11 @@ h3 {
 li {
   list-style: none;
 }
-a, a:hover, a:active {
+a, a:link, a:hover, a:active, a:visited {
   text-decoration: none;
-  color: inherit;
+  color: white;
+  cursor: pointer;
+
 }
 .small-emoji {
   font-size: 0.7em;
@@ -74,28 +76,27 @@ a, a:hover, a:active {
 .exp {
   position: relative;
 }
-.exp li {
-
-}
 .icon-alex img{
-  width: 5%;
   padding: 1px;
 }
-h3, .cheatspace, .workingtime {
+.glasses {
+  width: 20%;
+}
+.lightning, .union, .friends {
+  width: 15%;
+  margin-right: 5%;
+}
+.exp-left, .exp-right{
   display: inline-block;
 }
+.exp-left {
+  width: 40%;
+}
+
 h3 {
   margin-left: 2%;
 }
-.cheatspace {
-  width: 25%;
-}
-.workingtime {
-  /*text-align: left;
-  position: absolute;
-  right: 30%;*/
-  margin-left: 10%;
-}
+
 
 
 
