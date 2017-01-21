@@ -93,13 +93,6 @@ a, a:link, a:hover, a:active, a:visited {
   width: 40%;
 }
 
-h3 {
-  margin-left: 2%;
-}
-
-
-
-
 /*********MEDIA QUERIES*********/
 /*MOBILE*/
 @media only screen
@@ -121,6 +114,9 @@ and (max-device-width : 480px) {
   }
   .exp {
     padding-left:0;
+  }
+  .exp-left {
+    width: 70%;
   }
 
 }
