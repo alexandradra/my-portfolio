@@ -1,5 +1,6 @@
 .lang-row {
   height: 100%;
+  padding-top: 3%;
 }
 .lang-row img {
   height: 50px;
@@ -80,6 +81,9 @@
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
+  .lang-row {
+    padding-top: 8%;
+  }
 }
 @media only screen
 and (min-device-width : 768px)
