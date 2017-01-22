@@ -21,7 +21,21 @@
 
     <div class="glitch"></div>
     <header class="header">
-        <h1 class="name-glitched" data-text="Dubost">Alexandra</h1>
+        <h1 id="home" class="name-glitched" data-text="Dubost">Alexandra</h1>
+
+        <button id="open-nav">+</button>
+        <nav id="main-nav" class="main-nav">
+          <span class="close">x</span>
+          <ul class="ul-nav">
+            <li><a href="#home" class="gotocont">Home</a></li>
+            <li><a href="#bio" class="gotocont">Bio</a></li>
+            <li><a href="#lang" class="gotocont">Langages</a></li>
+            <li><a href="#work" class="gotocont">Projets</a></li>
+            <li><a href="#background" class="gotocont">Expériences</a></li>
+            <li><a href="#contact" class="gotocont">Contactez-moi</a></li>
+          </ul>
+        </nav>
+
         <div class="social-row-ctn">
             <div class="social-row">
                 <a href="https://github.com/alexandradra" target="_blank">
@@ -51,7 +65,7 @@
             <div class="gradient-line"></div>
         </div>
         <div class="baby-ctn languages-ctn lazy">
-            <article class="languages no-txt lazy">
+            <article id="lang" class="languages no-txt lazy">
                 <h2>$ languages-spoken<span class="underscore">_</span></h2>
             </article>
             <div class="container lazy">
@@ -162,7 +176,7 @@
 
         </div>
         <div class="baby-ctn creations-ctn lazy">
-            <article class="creations no-txt lazy">
+            <article id="work" class="creations no-txt lazy">
                 <h2>$ my-work<span class="underscore">_</span></h2>
             </article>
             <div class="container">
@@ -221,7 +235,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <article class="background no-txt lazy">
+                        <article id="background" class="background no-txt lazy">
                             <h2>$ background<span class="underscore">_</span></h2>
                             <ul class="exp">
                                 <li>
@@ -329,7 +343,7 @@
             <div class="gradient-line"></div>
         </div> -->
         <div class="baby-ctn contact-ctn lazy">
-            <article class="contact no-txt lazy">
+            <article id="contact" class="contact no-txt lazy">
                 <h2>$ <span class="small-emoji">☎</span> contact-me<span class="underscore">_</span></h2>
                 <form class="form-horizontal">
                     <div class="form-group">
@@ -374,6 +388,7 @@
     <!-- <script src="scripts/jquery.lazyload-any.js"></script>
 <script src="scripts/lazy.js"></script> -->
     <script src="scripts/scroll.js" charset="utf-8"></script>
+    <script src="scripts/nav.js" charset="utf-8"></script>
 
     </script>
     </script>
