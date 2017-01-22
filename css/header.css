@@ -5,47 +5,53 @@
     background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 5%;
 }
+
 .social-row-ctn {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .social-row {
-  width: 30%;
-  display: flex;
-  justify-content: center;
+    width: 30%;
+    display: flex;
+    justify-content: center;
 }
+
 .social-row a {
-  width: 100%;
-  display: block;
+    width: 100%;
+    display: block;
 }
+
 .social-row a img {
-  height: 50px;
-  display: block;
-  margin: 0 auto;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
 }
 
 .scroll-me {
     box-sizing: border-box;
-    position: absolute;
+    /*position: absolute;
     bottom: -1px;
     margin-left: 50%;
     border-left: 1px solid white;
-    padding: 1%;
+    padding: 1%;*/
+    display: block;
+    width: 50%;
+    margin: 0 auto;
 }
-.scroll-me p {
+/*.scroll-me p {
     font-family: VT323;
-}
+}*/
 
-.scroll-me a {
-  width: 100%;
-}
+.scroll-me a {}
 
 .scroll-me img {
-    width: 30%;
-    margin: 20px;
+    display: block;
+    margin: -10% auto 0;
+    width: 40%;
 }
 
 
@@ -63,16 +69,17 @@
         background-color: rgba(0, 0, 0, 0.2);
     }
     .social-row {
-      width: 90%;
+        width: 90%;
     }
     .social-row a img {
-      height: 40px;
+        height: 40px;
     }
     .scroll-me {
         padding: 3% 5% 13% 2%;
+        width: 63%;
     }
     .scroll-me img {
         width: 100%;
-        margin: 0;
+        margin: -45% auto 0;
     }
 }
