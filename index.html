@@ -7,6 +7,7 @@
     <title>Alexandra Dubost - Développeuse Web</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/languages.css">
@@ -20,14 +21,14 @@
 <body>
 
     <div class="glitch"></div>
-    <header class="header">
+    <header id="header" class="header">
         <h1 id="home" class="name-glitched" data-text="Dubost">Alexandra</h1>
 
         <button id="open-nav">+</button>
         <nav id="main-nav" class="main-nav fade-in is-paused">
           <span class="close">x</span>
           <ul class="ul-nav">
-            <li><a href="#home" class="gotocont">Home</a></li>
+            <li><a href="#header" class="gotocont">Home</a></li>
             <li><a href="#bio" class="gotocont">Bio</a></li>
             <li><a href="#lang" class="gotocont">Langages</a></li>
             <li><a href="#work" class="gotocont">Projets</a></li>

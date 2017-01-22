@@ -36,6 +36,17 @@
   animation: fadeIn .5s ease-in 1 forwards;
 }
 
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  opacity: 1;
+  animation: fadeIn .5s ease-in 1 forwards;
+}
+
 .is-paused {
   animation-play-state: paused;
 }
