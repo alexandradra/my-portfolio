@@ -92,6 +92,10 @@ a, a:link, a:hover, a:active, a:visited {
 .exp-left {
   width: 40%;
 }
+/*CONTACT FORM*/
+.form-group {
+  width: 100%;
+}
 
 /*********MEDIA QUERIES*********/
 /*MOBILE*/
