@@ -30,7 +30,9 @@ a, a:link, a:hover, a:active, a:visited {
   text-decoration: none;
   color: white;
   cursor: pointer;
-
+}
+button:focus {
+  outline:0;
 }
 .small-emoji {
   font-size: 0.7em;

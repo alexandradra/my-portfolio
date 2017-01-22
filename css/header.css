@@ -12,11 +12,10 @@
     left: 3%;
     z-index: 10;
 }
-
 #open-nav {
     background-color: transparent;
     border: none;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.7);
     font-size: 3em;
 }
 
@@ -24,6 +23,21 @@
     display: none;
     padding: 2%;
     background-color: rgba(255, 255, 255, 0.7);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn .5s ease-in 1 forwards;
+}
+
+.is-paused {
+  animation-play-state: paused;
 }
 
 .close {
