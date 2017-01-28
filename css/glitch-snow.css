@@ -520,6 +520,7 @@
   }
 }
 .glitch {
+  z-index: -3;
   overflow-y: hidden;
   width: 100%;
   height: 200%;

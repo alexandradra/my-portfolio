@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-    var li = document.getElementsByClassName('nav-item');
-    var nav = document.getElementById('main-nav');
-    var btn = document.getElementById("open-nav");
-    var close = document.getElementsByClassName("close")[0];
+    let li = document.getElementsByClassName('nav-item');
+    let nav = document.getElementById('main-nav');
+    let btn = document.getElementById("open-nav");
+    let close = document.getElementsByClassName("close")[0];
     btn.onclick = function() {
         nav.style.display = "block";
         btn.style.display = "none";

@@ -123,6 +123,15 @@
 .contact-links .link-row a:hover:after {
   transform: translate3d(0,0,0);
 }
+.up {
+  display: none;
+  position: fixed;
+  bottom: 3%;
+  right: -1%;
+}
+.up img {
+    width: 40%;
+}
 
 /*********MEDIA QUERIES*********/
 /*MOBILE*/
