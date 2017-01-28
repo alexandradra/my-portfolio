@@ -4,7 +4,7 @@
     height: 100%;
 }
 .baby-ctn {
-    height: 100vh;
+    min-height: 100vh;
     margin: 0 auto;
     background-color: rgba(0,0,0,0.5);
     position: relative;
@@ -15,7 +15,7 @@
   margin-top: 0;
 }
 /*Centered sections*/
-#bio, .background-ctn {
+#bio, .background-ctn, .contact-ctn {
   display: flex;
   align-items: center;
 }
@@ -60,9 +60,65 @@
 .exp-left {
   width: 40%;
 }
-/*CONTACT FORM*/
-.form-group {
-  width: 100%;
+/*CONTACT*/
+.contact h2 {
+  margin-bottom: 2%;
+}
+.contact-links .row {
+  margin-bottom: 3%;
+}
+.contact-links .row img {
+  width: 70%;
+}
+.link-row {
+  padding-left: 0;
+}
+.contact-links .link-row a {
+  display:block;
+  margin-top: 2%;
+  position: relative;
+  overflow: hidden;
+  padding:0 6px;
+  text-transform: uppercase;
+  transition: color .8s cubic-bezier(0.11, 0.7, 0, 1);
+  font-size: 1.1em;
+  letter-spacing: .15rem;
+  line-height: 1.8;
+}
+
+.contact-links .link-row a{
+  position: relative;
+  z-index:1;
+  padding:2px 6px;
+}
+.red:after {
+  background-color: #BB2723;
+}
+.green:after {
+  background-color: #228B22;
+}
+.blue:after {
+  background-color: #2223DD;
+}
+.contact-links .link-row a:after {
+  position: absolute;
+  top:0; bottom: 0;
+  right: 0;left: 0;
+  display: block;
+  /*background-color: #BB2723;*/
+  content: "";
+  transform: translate3d(-101%,0,0);
+  z-index:-1;
+  transition: transform .8s cubic-bezier(0.11, 0.7, 0, 1);
+}
+
+
+.contact-links .link-row a:hover {
+  color: #fff;
+}
+
+.contact-links .link-row a:hover:after {
+  transform: translate3d(0,0,0);
 }
 
 /*********MEDIA QUERIES*********/
@@ -93,5 +149,12 @@ and (max-device-width : 480px) {
   .studies {
     margin-top: 15%;
   }
-
+  .contact h2 {
+    padding-bottom: 20%;
+  }
+  .contact-links .row img {
+    width: 70%;
+    margin: 0 auto;
+    display: inline-block;
+  }
 }
