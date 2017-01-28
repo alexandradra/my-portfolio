@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
+    var li = document.getElementsByClassName('nav-item');
     var nav = document.getElementById('main-nav');
     var btn = document.getElementById("open-nav");
     var close = document.getElementsByClassName("close")[0];
@@ -12,7 +13,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     close.onclick = function() {
         nav.style.display = "none";
         btn.style.display = "block";
-
+    }
+    li.onclick = function() {
+        nav.style.display = "none";
+        btn.style.display = "block";
     }
     document.onclick = function(event) {
         if (event.target == nav) {

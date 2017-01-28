@@ -8,6 +8,7 @@
     background-color: rgba(0,0,0,0.5);
     position: relative;
     padding-bottom: 2% !important;
+    /*height: 100vh;*/
 }
 .no-txt h2 {
   padding: 2.5% 30% 1%;
