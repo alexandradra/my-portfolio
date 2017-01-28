@@ -1,0 +1,30 @@
+.shape {
+  position: absolute;
+}
+.triangle-background-pink {
+  bottom: 20%;
+  right: 20%;
+  transform: rotate(127deg);
+}
+.triangle-background-orange {
+  top: -20%;
+  right: 10%;
+  transform: rotate(70deg);
+}
+.line-background-yellow {
+  width: 20px;
+  left: 40%;
+  right: 30%;
+  transform: rotate(70deg);
+}
+
+.triangle-contact-green {
+  top: 4%;
+  left: 7%;
+  transform: rotate(60deg);
+}
+.triangle-contact-blue {
+  bottom: 8%;
+  right: 7%;
+  transform: rotate(147deg);
+}
