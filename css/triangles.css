@@ -1,5 +1,6 @@
 .shape {
   position: absolute;
+  z-index: -1;
 }
 .triangle-background-pink {
   bottom: 20%;
