@@ -1,73 +1,122 @@
 .shape {
-  position: absolute;
-  z-index: -1;
-  overflow-x: hidden;
-}
-.triangle-green-01 {
-  top: 123%;
-  left: 7%;
-  transform: rotate(60deg);
-}
-.triangle-blue-01 {
-  top: 351%;
-  right: 7%;
-  transform: rotate(147deg);
-}
-.triangle-pink-01 {
-  top: 224%;
-  left: 20%;
-  transform: rotate(127deg);
-}
-.triangle-orange-01 {
-  top: 200%;
-  right: 10%;
-  transform: rotate(70deg);
-}
-.line-yellow-01 {
-  width: 20px;
-  left: 84%;
-  top: 152%;
-  transform: rotate(70deg);
-}
-.triangle-red-01 {
-  left: 20%;
-  top: 362%;
-  transform: rotate(100deg);
-}
-.triangle-purple-01 {
-  left: 4%;
-  top: 472%;
-  transform: rotate(60deg);
-}
-.line-turquoise-01 {
-  left: 74%;
-  top: 432%;
-  transform: rotate(70deg);
-}
-.line-pink-01 {
-  width: 20px;
-  left: 14%;
-  top: 532%;
-  transform: rotate(110deg);
-}
-.triangle-yellow-01 {
-  right: 10%;
-  top: 552%;
-  transform: rotate(80deg);
+    position: absolute;
+    z-index: -1;
+    overflow-x: hidden;
 }
 
-/*MOBILE*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .triangle-orange-01 {
-    width: 250px;
-  }
-  .triangle-green-01 {
-    width: 150px;
-    top: 104%;
-    right: 10%;
+.triangle-green-01 {
+    top: 123%;
+    left: 7%;
     transform: rotate(60deg);
-  }
-  .triangle-blue-01 {
-    right: 15%;
-  }
+}
+
+.triangle-blue-01 {
+    top: 351%;
+    right: 7%;
+    transform: rotate(147deg);
+}
+
+.triangle-pink-01 {
+    top: 224%;
+    left: 20%;
+    transform: rotate(127deg);
+}
+
+.triangle-orange-01 {
+    top: 200%;
+    right: 10%;
+    transform: rotate(70deg);
+}
+
+.line-yellow-01 {
+    width: 20px;
+    left: 84%;
+    top: 152%;
+    transform: rotate(70deg);
+}
+
+.triangle-red-01 {
+    left: 20%;
+    top: 362%;
+    transform: rotate(100deg);
+}
+
+.triangle-purple-01 {
+    left: 4%;
+    top: 472%;
+    transform: rotate(60deg);
+}
+
+.line-turquoise-01 {
+    left: 74%;
+    top: 432%;
+    transform: rotate(70deg);
+}
+
+.line-pink-01 {
+    width: 30px;
+    left: 31%;
+    top: 535%;
+    transform: rotate(110deg);
+}
+
+.triangle-yellow-01 {
+    right: 10%;
+    top: 552%;
+    transform: rotate(80deg);
+}
+
+
+/*MOBILE*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .triangle-orange-01 {
+        width: 64%;
+        right: 14%;
+    }
+    .triangle-green-01 {
+        width: 150px;
+        top: 104%;
+        right: 10%;
+        transform: rotate(60deg);
+    }
+    .triangle-pink-01 {
+        top: 258%;
+        left: 54%;
+    }
+    .triangle-blue-01 {
+        right: 15%;
+    }
+    .triangle-yellow-01 {
+        right: 8%;
+        width: 50%;
+    }
+    .triangle-red-01 {
+        left: 8%;
+        width: 70%;
+        top: 345%;
+    }
+    .triangle-blue-01 {
+        top: 695%;
+    }
+    .line-pink-01 {
+        width: 24px;
+        left: 48%;
+        top: 639%;
+        transform: rotate(110deg);
+    }
+    .line-yellow-01 {
+        left: 58%;
+    }
+    .line-turquoise-01 {
+        width: 25px;
+        top: 267%;
+        left: 45%;
+    }
+    .triangle-purple-01 {
+        left: 12%;
+        top: 487%;
+        transform: rotate(60deg);
+        width: 50%;
+    }
 }
