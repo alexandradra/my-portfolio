@@ -14,12 +14,14 @@
   padding: 2.5% 30% 1%;
   margin-top: 0;
 }
-
+/*Centered sections*/
+#bio, .background-ctn {
+  display: flex;
+  align-items: center;
+}
 /*BIO*/
 #bio { /*<--Parent*/
   padding-top: 5%;
-  display: flex;
-  align-items: center;
 }
 .bio-ctn {
   padding: 5% 30% 2% 30%;
@@ -36,10 +38,6 @@
 }
 
 /*BACKGROUND & STUDIES*/
-.background-ctn {
-  display: flex;
-  align-items: center;
-}
 .background h2, .studies h2 {
   padding-top: 5.5%;
 }
