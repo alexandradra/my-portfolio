@@ -18,6 +18,17 @@
     color: rgba(255, 255, 255, 0.7);
     font-size: 3em;
 }
+#open-nav:hover {
+  animation: roll 0.9s 1;
+}
+@keyframes roll {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 .main-nav {
     display: none;
