@@ -23,6 +23,15 @@ h3 {
   display: inline-block;
   font-size: 1.2em;
 }
+.subtitle {
+  margin-bottom: 3%;
+  font-family: VT323;
+  font-weight: normal;
+  text-align: justify;
+  color:#c9c9c9;
+  font-size: 1.6em;
+}
+
 li {
   list-style: none;
 }

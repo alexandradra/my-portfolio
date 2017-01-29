@@ -2,7 +2,7 @@
   height: 100%;
   padding-top: 3%;
 }
-.lang-row img {
+.lang-logo-ctn img {
   height: 50px;
   display: block;
   margin: 0 auto;
@@ -48,6 +48,22 @@
 .angular-progress span {
   background: linear-gradient(#C4473A,#C46A5A,#C4473A);
   border: 1px solid rgba(196,71,58,0.7);
+}
+.php-progress span {
+  background: linear-gradient(#6181B6,#89a1c7,#6181B6);
+  border: 1px solid rgba(97,129,182,0.7);
+}
+.mysql-progress span {
+  background: linear-gradient(#00618A,#1f7498,#00618A);
+  border: 1px solid rgba(0,97,138,0.7);
+}
+.wp-progress span {
+  background: linear-gradient(#494949,#6d6d6d,#494949);
+  border: 1px solid rgba(73,73,73,0.7);
+}
+.symfony-progress span {
+  background: linear-gradient(#1A171B,#332d36,#1A171B);
+  border: 1px solid rgba(26,23,27,0.7);
 }
 
 .skill-level span {

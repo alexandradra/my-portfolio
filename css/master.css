@@ -15,9 +15,13 @@
   margin-top: 0;
 }
 /*Centered sections*/
-#bio, .background-ctn, .contact-ctn {
+#bio, .background-ctn, .contact-ctn, .languages-ctn{
   display: flex;
   align-items: center;
+  vertical-align: middle;
+}
+.lang-block {
+  width: 100%;
 }
 /*BIO*/
 #bio { /*<--Parent*/
@@ -39,7 +43,7 @@
 
 /*BACKGROUND & STUDIES*/
 .background h2, .studies h2 {
-  padding-top: 5.5%;
+  padding: 2.5% 7% 1%;
 }
 .exp {
   position: relative;
