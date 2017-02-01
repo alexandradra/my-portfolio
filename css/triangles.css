@@ -80,12 +80,12 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .triangle-orange-01 {
-        width: 64%;
-        right: 14%;
+        width: 33%;
+        left: 14%;
     }
     .triangle-green-01 {
         width: 150px;
-        top: 104%;
+        top: 120%;
         right: 10%;
         transform: rotate(60deg);
     }
@@ -99,6 +99,7 @@
     .triangle-yellow-01 {
         right: 8%;
         width: 50%;
+        top: 522%;
     }
     .triangle-red-01 {
         left: 8%;
@@ -127,5 +128,12 @@
         top: 487%;
         transform: rotate(60deg);
         width: 50%;
+    }
+    .round-black-01 {
+      top: 820%;
+      width: 50%;
+    }
+    .line-green-01 {
+      top: 815%;
     }
 }
