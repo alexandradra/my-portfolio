@@ -147,7 +147,7 @@ h1 a, .wrap {
     }
     .header {
         height: 100vh;
-        background-color: /*rgba(0, 0, 0, 0.2);*/#181a1c;
+        background-color: /*rgba(0, 0, 0, 0.2);*/#111214;
     }
     .main-nav, #open-nav {
         position: fixed;
