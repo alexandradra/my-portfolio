@@ -1,1 +1,0 @@
-$('.lazy').lazyload(options);

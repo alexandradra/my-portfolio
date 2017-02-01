@@ -1,11 +1,12 @@
 .shape {
     position: absolute;
     z-index: -1;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 .triangle-green-01 {
-    top: 123%;
+    /*background-image: url(/images/triangle-green-01.png);*/
+    top: 263%;
     left: 7%;
     transform: rotate(60deg);
 }
@@ -17,14 +18,14 @@
 }
 
 .triangle-pink-01 {
-    top: 224%;
-    left: 20%;
+    top: 244%;
+    right: 20%;
     transform: rotate(127deg);
 }
 
 .triangle-orange-01 {
-    top: 200%;
-    right: 10%;
+    top: 170%;
+    left: 10%;
     transform: rotate(70deg);
 }
 
@@ -65,8 +66,16 @@
     top: 552%;
     transform: rotate(80deg);
 }
-
-
+.round-black-01 {
+  left: 10%;
+  top: 652%;
+}
+.line-green-01 {
+  width: 25px;
+  right: 15%;
+  top: 652%;
+  transform: rotate(30deg);
+}
 /*MOBILE*/
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
