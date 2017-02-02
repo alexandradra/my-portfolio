@@ -6,7 +6,7 @@
 .baby-ctn {
     min-height: 100vh;
     margin: 0 auto;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0);
     position: relative;
     padding-bottom: 2% !important;
 }
