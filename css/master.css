@@ -143,6 +143,9 @@
 .margin-bot-30 {
   margin-bottom: 30px;
 }
+.modal-header .close {
+    margin-top: 14px;
+}
 
 /*********MEDIA QUERIES*********/
 /*MOBILE*/
