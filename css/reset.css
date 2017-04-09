@@ -35,10 +35,14 @@ h3 {
 li {
   list-style: none;
 }
-a, a:link, a:hover, a:active, a:visited {
+a, a:link, a:active,a:hover, a:visited {
   text-decoration: none;
   color: white;
   cursor: pointer;
+}
+a.dashed-hover:hover {
+  text-decoration: underline;
+  text-decoration-style: dashed;
 }
 button:focus {
   outline:0;
