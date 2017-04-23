@@ -1,8 +1,14 @@
-.projects-row .overlay {
-  min-height: 145px;
+.projects-row .col-md-4 {
+  margin-bottom: 15px;
 }
-.projects-row .overlay h2, .projects-row .overlay p {
+.projects-row .overlay {
+  min-height: 250px;
+}
+.projects-row .overlay h2 {
   text-align: center;
+}
+.projects-row .overlay div {
+  text-align: justify;
 }
 /*.hovereffect {
   margin-bottom: 20px;
