@@ -26,6 +26,12 @@ ul.chevron-list li:before {
     margin: 0 5px 0 0px;
     font-size: 0.8em;
 }
+.modal-content {
+  background-color: rgba(26,28,29,1) !important;
+}
+.modal-header .close {
+  color: #fff !important;
+}
 /*Centered sections*/
 #bio, .background-ctn, .contact-ctn, .languages-ctn{
   display: flex;
