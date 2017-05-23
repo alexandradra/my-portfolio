@@ -57,3 +57,6 @@ button:focus {
 .overline {
   text-decoration: line-through;
 }
+.red-span {
+  color: #BB2723 !important;
+}
