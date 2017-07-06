@@ -39,15 +39,22 @@ h4.modal-title {
 li {
   list-style: none;
 }
-a, a:link, a:active,a:hover, a:visited {
+a {
   text-decoration: none;
   color: white;
   cursor: pointer;
+  transition: 0.9s ease;
 }
-a.dashed-hover:hover {
+a:active,a:hover, a:focus {
+  text-decoration: none;
+  color: rgb(173, 166, 176);
+  transition: 0.5s ease;
+}
+/*a.dashed-hover:hover {
   text-decoration: underline;
   text-decoration-style: dashed;
-}
+  transition: 0.9s ease;
+}*/
 button:focus {
   outline:0;
 }
@@ -59,4 +66,7 @@ button:focus {
 }
 .red-span {
   color: #BB2723 !important;
+}
+.language-name {
+  display: none;
 }
