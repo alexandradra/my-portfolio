@@ -21,10 +21,12 @@ h2, .projects-row .overlay h3 {
   font-size: 1.8em;
   margin-top: 0;
 }
+
 .projects-row .overlay h3 {
   text-align: center;
   margin-top: 10px;
 }
+
 .page-section h2 {
   margin-bottom: 50px;
   font-size: 2.6em;
@@ -33,10 +35,12 @@ h2, .projects-row .overlay h3 {
 h3 {
   font-size: 1.2em;
 }
+
 .background-ctn h3 {
   display: inline-block;
   font-weight: 900;
 }
+
 h4.modal-title {
   font-family: 'VT323', monospace;
   font-size: 1.7em;
@@ -113,10 +117,12 @@ button:focus {
   flex-direction: column;
   justify-content: space-between;
 }
-.page-section .gradient-line.grad-top{
+
+.page-section .gradient-line.grad-top {
   margin-bottom: 50px;
 }
-.page-section .gradient-line.grad-bottom{
+
+.page-section .gradient-line.grad-bottom {
   margin-top: 50px;
 }
 
@@ -314,10 +320,6 @@ ul.chevron-list li:before {
     padding-left: 0;
   }
 
-  .exp {
-    padding-left: 0;
-  }
-
   .exp-left {
     width: 70%;
   }
@@ -503,7 +505,8 @@ h1 a, .wrap {
 
   #open-nav {
     top: 1%;
-    left: 70%;
+    right: 5%;
+    left: unset;
   }
 
   .main-nav {
@@ -656,7 +659,15 @@ h1 a, .wrap {
   }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .overlay {
+    min-height: 300px;
+  }
+  .single-project a img {
+    width: 100%;
+    height: 190px;
+  }
+}
 
 /*Another level bar style*/
 /*.level {
@@ -695,6 +706,7 @@ h1 a, .wrap {
 .projects-row {
   margin-bottom: 25px;
 }
+
 .single-project a {
   padding-bottom: 15px;
 }
