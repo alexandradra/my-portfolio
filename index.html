@@ -1,26 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Alexandra Dubost - Développeuse Web Marseille</title>
-  <meta name="description" content="Portfolio professionnel d'Alexandra Dubost, développeuse front-end basée sur Marseille - En recherche d'emploi !" />
+  <title>Alexandra Dubost - UX design, développement front-end Marseille</title>
+  <meta name="description" content="Portfolio professionnel d'Alexandra Dubost, développeuse et formatrice : front-end / UX Design basée sur Marseille." />
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|VT323" rel="stylesheet">
+  <link rel="alternate" hreflang="fr-FR" href="http://alexandradra.esy.es/" />
+  <!-- Libraries -->
   <link rel="stylesheet" href="css/animate.css" media="all">
-  <link rel="stylesheet" href="css/fonts.css" media="all">
-  <link rel="stylesheet" href="css/reset.css" media="all">
-  <link rel="stylesheet" href="css/master.css" media="all">
-  <link rel="stylesheet" href="css/header.css" media="all">
-  <link rel="stylesheet" href="css/languages.css" media="all">
-  <link rel="stylesheet" href="css/creations.css" media="all">
-  <link rel="stylesheet" href="css/gradient-line.css" media="all">
-  <link rel="stylesheet" href="css/blink.css" media="all">
-  <!-- <link rel="stylesheet" href="css/glitch-snow.css" media="all"> -->
-  <link rel="stylesheet" href="css/triangles.css" media="all">
-  <link rel="stylesheet" href="css/parallax.css" media="all">
   <link rel="stylesheet" href="css/hover.css" media="all">
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/style.css" media="all">
+  <link rel="stylesheet" href="css/triangles.css" media="all">
+
   <link rel="icon" href="images/favicon.png" />
 </head>
 
@@ -35,20 +32,21 @@
       <ul class="ul-nav">
         <li class="nav-item"><a href="#header" class="gotocont">Accueil</a></li>
         <li class="nav-item"><a href="#bio" class="gotocont">Bio</a></li>
+        <li class="nav-item"><a href="#work" class="gotocont">Projets</a></li>
         <li class="nav-item"><a href="#lang" class="gotocont">Langages</a></li>
-        <li class="nav-item"><a href="#work" class="gotocont">Mon travail</a></li>
         <li class="nav-item"><a href="#background" class="gotocont">Expériences</a></li>
-        <li class="nav-item"><a href="#contact" class="gotocont">Contactez-moi</a></li>
+        <li class="nav-item"><a href="#contact" class="gotocont">Contact</a></li>
       </ul>
     </nav>
 
     <div class="title-big-ctn">
       <div class="title-ctn">
         <h1>
-                  <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, I am Alexandra Dubost !", "I am from Marseille, France", "I Love to Code", "I Love Unicorns", "I have got two cats", "You will have a good time on my portfolio !" ]'>
-                    <span class="wrap"></span>
-                  </a>
-                </h1>
+          <span class="sr-only">Portfolio d'Alexandra Dubost, UX Designer et développeuse front-end, Marseille</span>
+          <a href="" class="typewrite" data-period="2000" data-type='[ "Bonjour, I am Alexandra Dubost", "I am from Marseille, France", "I will go to space one day :D", "I have got two cats and one dog", "Have a good time on my portfolio !" ]'>
+            <span class="wrap"></span>
+          </a>
+        </h1>
       </div>
     </div>
 
@@ -57,7 +55,7 @@
     </div>
     <div class="gradient-line"></div>
   </header>
-  <section id="main" class="ctn">
+  <main id="main" class="ctn">
     <!-- <div class="shape triangle-green-01"></div> -->
     <img class="shape triangle-green-01" src="images/triangle-green-01.png" alt="Triangle">
     <img class="shape triangle-blue-01" src="images/triangle-blue-01.png" alt="Triangle">
@@ -72,51 +70,212 @@
     <img class="shape round-black-01" src="images/round-black-01.png" alt="Round">
     <img class="shape line-green-01" src="images/line-green-01.png" alt="Line">
 
-    <div id="bio" class="baby-ctn bio-ctn ">
-      <article class="bio ">
-        <h2>$ nanobiography<span class="underscore">_</span></h2>
-
-        <p>Développeuse front-end junior de 27 ans : je suis une exploratrice des Internets fan de blagues pas drôles, de kitsch et de licornes 🦄
-        </p>
-        <p>Après 3 années en tant qu'assistante ADV, je souhaite désormais <span class="overline">dominer le monde</span> changer de voie et développer de beaux et bons sites Internet avec mes blanches mains.</p>
-        <p>C'est en Juin 2016 que je décide de me lancer dans le développement Web. <br/> En octobre 2016, j'ai eu la chance d'intégrer <a href="http://simplonmars.eu/" target="_blank" class="dashed-hover">SIMPLonMARS</a>, formation portée par <a href="https://www.centrale-marseille.fr/fr/simplonmars"
-            class="dashed-hover">l'École Centrale de Marseille</a>, pour une formation intensive au développement web front et back-end ! 💻 <br> HTML, CSS, JavaScript, jQuery, Bootstrap, PHP : tout ça, ça me connaît et je n'attend qu'une chose : m'améliorer
-          et explorer encore plus de langages et frameworks !
-        </p>
-        <p>Je vous laisse découvrir mon travail, n'hésitez pas à me contacter <i>(je suis sûre que votre projet me motive déjà)</i> !</p>
-
-        <h3 class="subtitle front">// Alexandra<span class="underscore">✌</span></h3>
-      </article>
+    <!-- BIO -->
+    <section id="bio" class="page-section">
       <div class="gradient-line"></div>
-    </div>
-    <div id="lang" class="baby-ctn languages-ctn ">
-      <div class="lang-block">
-        <article id="lang" class="languages no-txt ">
-          <h2>$ languages-spoken<span class="underscore">_</span></h2>
-        </article>
-        <div class="container lang-ctn">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <article class="bio">
+              <h2>$ nanobiography<span class="underscore">_</span></h2>
+
+              <p>Développeuse front-end de 29 ans et formatrice en webdesign : je suis une exploratrice des Internets fan de blagues pas drôles, de kitsch et de licornes 🦄
+              </p>
+              <p>Après 3 années en tant qu'assistante ADV, aujourd'hui je <span class="overline">domine le monde</span> développer de beaux et bons sites Internet avec mes blanches mains.</p>
+              <p>C'est en Juin 2016 que je décide de me lancer dans le développement Web. <br /> En octobre 2016, j'ai eu la chance d'intégrer <a href="https://passerelle-numerique.fr/" target="_blank" class="dashed-hover">Passerelle Numérique</a>,
+                formation portée par <a href="https://www.centrale-marseille.fr/fr/simplonmars" class="dashed-hover">l'École Centrale de Marseille</a>, pour une formation intensive au développement web front et back-end ! 💻 <br> HTML, CSS,
+                JavaScript,
+                jQuery, Bootstrap, PHP :
+                tout ça, ça me connaît maintenant !
+              </p>
+              <p>Je vous laisse découvrir mon travail... <i>Good luck, and don't f*ck it up</i></p>
+
+              <h3 class="subtitle front">// Alexandra<span class="underscore">✌</span></h3>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="gradient-line"></div>
+    </section>
+
+    <!-- <div class="gradient-line"></div> -->
+
+
+    <!-- PROJETS -->
+    <section class="page-section creations-ctn" id="work">
+      <div class="gradient-line grad-top"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>$ projets<span class="underscore">_</span></h2>
+          </div>
+        </div>
+        <div class="row projects-row">
+          <!-- GME -->
+          <div class="col-md-4">
+            <article class="single-project">
+              <a href="https://www.garder-mes-enfants.fr/" class="hvr-underline-from-center" target="_blank">
+                <img class="img-responsive" src="images/projects/gme.png" alt="garder-mes-enfants.fr">
+                <div class="overlay">
+                  <h3>Garder-mes-enfants.fr <br> <small>UX Designer</small></h3>
+                  <div class="project-desc">
+                    <p class="text-center">Mission d'un an en alternance</p>
+                    <strong>Missions / Technos / Langages utilisés :</strong>
+                    <ul class="chevron-list">
+                      <li>Refonte graphique de la plateforme </li>
+                      <li>Maquettage et ajout de nouvelles fonctionnalités </li>
+                      <li>Développement d'offres commerciales</li>
+                      <li>Optimisation SEO</li>
+                      <li>Création/rédaction de contenus </li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+          </div>
+          <!-- WAGAIA -->
+          <div class="col-md-4">
+            <article class="single-project">
+              <a href="https://www.wagaia.com/" class="hvr-underline-from-center" target="_blank">
+                <img class="img-responsive" src="images/projects/wagaia.png" alt="Agence Web Wagaia">
+                <div class="overlay">
+                  <h3>Agence Web Wagaia <br> <small>Intégration web</small></h3>
+                  <div class="project-desc">
+                    <p class="text-center">Stage en Agence Web + Activité Freelance</p>
+                    <strong>Missions / Technos / Langages utilisés :</strong>
+                    <ul class="chevron-list">
+                      <li>Modification de templates HTML/CSS</li>
+                      <li>Proposition de solutions graphiques</li>
+                      <li>Intégration de maquettes au format .psd</li>
+                      <li>Ajout de fonctionnalités (côté front-end)</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </div>
+          <!-- SPRING MACRAMÉ -->
+          <div class="col-md-4">
+            <article class="single-project">
+              <a href="https://springmacrame.com/" class="hvr-underline-from-center" target="_blank">
+                <img class="img-responsive" src="images/projects/spring.png" alt="Spring Macramé">
+                <div class="overlay">
+                  <h3>Spring Macramé<br> <small>Avril - Mai 2017 - Projet personnel</small></h3>
+                  <div class="project-desc">
+                    <p class="text-center">Création d'un site e-commerce</p>
+                    <strong>Missions / Technos / Langages utilisés :</strong>
+                    <ul class="chevron-list">
+                      <li>Création du site sur WordPress</li>
+                      <li>Utilisation de WooCommerce</li>
+                      <li>Paiement sécurisé via Stripe</li>
+                      <li>Utilisation d'un thème Premium + Visual Composer</li>
+                      <li>Optimisation du référencement (Yoast SEO)</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+        <div class="row projects-row">
+          <!-- FACE -->
+          <div class="col-md-4">
+            <article class="single-project">
+              <a href="http://face-sudprovence.org/" class="hvr-underline-from-center" target="_blank">
+                <img class="img-responsive" src="images/projects/face.png" alt="FACE Sud Provence">
+                <div class="overlay">
+                  <h3>FACE Sud Provence<br> <small>Mars - Mai 2017 - Projet associatif</small></h3>
+                  <div class="project-desc">
+                    <p class="text-center">Refonte du site face-sud-provence.org
+                      <p />
+                      <!-- <span class="red-span"><strong>Projet en cours</strong></span></p> -->
+                      <strong>Missions / Technos / Langages utilisés :</strong>
+                      <ul class="chevron-list">
+                        <li>Refonte du site sur WordPress</li>
+                        <li>Refonte des catégories du site pour une meilleure UX</li>
+                        <li>Utilisation d'un thème Premium + Visual Composer</li>
+                      </ul>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </div>
+          <!-- MAKEY'T YOURSELF -->
+          <div class="col-md-4">
+            <article class="single-project">
+              <a href="https://alexandradra.github.io/makeyt-yourself-afterwork/" class="hvr-underline-from-center" target="_blank">
+                <img class="img-responsive" src="images/projects/makey.png" alt="Afterwork SIMPLonMARS Makeyt Yourself">
+                <div class="overlay">
+                  <h3>Makey't Yourself - Game Catalog<br> <small>Avril 2017 - SIMPLonMARS</small></h3>
+                  <div class="project-desc">
+                    <p class="text-center"> Réalisation d'un catalogue de jeux pour l'afterwork SIMPLonMARS <br> Développés avec Ryhad Boughanmi et Elise Brodin</p>
+                    <strong>Missions / Technos / Langages utilisés :</strong>
+                    <ul class="chevron-list">
+                      <li>Utilisation d'un Makey Makey : carte programmable permettant de transformer tout conducteur d'électricité en manette de jeu</li>
+                      <li>Jeux développés en JavaScript natif + Scratch</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </div>
+          <!-- METEORITES LANDING -->
+          <div class="col-md-4">
+            <article class="single-project">
+              <a href="https://alexandradra.github.io/meteorite-landings/" class="hvr-underline-from-center" target="_blank">
+                <img class="img-responsive" src="images/projects/meteorites.png" alt="Projet Data/plug - Meteorite Landings">
+                <div class="overlay">
+                  <h3>Projet Data/Plug : Meteorite Landings <br> <small>Février 2017 - SIMPLonMARS</small></h3>
+                  <div class="project-desc">
+                    <p class="text-center">Mise en page d'une Open data fournie par la NASA avec l'API Google Maps</p>
+                    <strong>Technos / Langages utilisés :</strong>
+                    <ul class="chevron-list">
+                      <li>HTML / CSS / Bootstrap</li>
+                      <li>JavaScript / jQuery</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="gradient-line grad-bottom"></div>
+    </section>
+
+    <!-- LANGAGES -->
+    <section id="lang" class="page-section languages-ctn">
+      <div class="gradient-line grad-top"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>$ langages<span class="underscore">_</span></h2>
+          </div>
+        </div>
+        <div class="lang-ctn">
           <div class="row">
-            <div class="col-md-5 col-md-offset-1">
+            <div class="col-md-6">
               <h3 class="subtitle front">// front-end<span class="underscore">|</span></h3>
               <div class="row margin-bot-30">
                 <!-- FRONT END -->
                 <!-- HTML5 -->
                 <div class="row margin-bot-30">
-                  <figure class="col-md-4 col-xs-4">
+                  <figure class="col-xs-3">
                     <div class="lang-logo-ctn">
                       <img src="images/icons/languages/html5-plain.svg" class="img-responsive" title="HTML5" alt="HTML5">
                       <h1 class="language-name text-center"><strong>HTML</strong></h1>
                     </div>
                   </figure>
                   <!-- CSS3 -->
-                  <figure class="col-md-4 col-xs-4">
+                  <figure class="col-xs-3">
                     <div class="lang-logo-ctn">
                       <img src="images/icons/languages/css3-plain.svg" class="img-responsive" title="CSS3" alt="CSS3">
                       <h1 class="language-name text-center"><strong>CSS3</strong></h1>
                     </div>
                   </figure>
                   <!-- JAVASCRIPT -->
-                  <figure class="col-md-4 col-xs-4">
+                  <figure class="col-xs-3">
                     <div class="lang-logo-ctn">
                       <img src="images/icons/languages/javascript-plain.svg" class="img-responsive" title="JavaScript" alt="JavaScript">
                       <h1 class="language-name text-center"><strong>JavaScript</strong></h1>
@@ -124,21 +283,21 @@
                   </figure>
                 </div>
                 <div class="row margin-bot-30">
-                  <figure class="col-md-4 col-xs-4">
+                  <figure class="col-xs-3">
                     <div class="lang-logo-ctn">
                       <img src="images/icons/languages/bootstrap-plain.svg" class="img-responsive" title="Bootstrap" alt="Bootstrap">
                       <h1 class="language-name text-center"><strong>Bootstrap</strong></h1>
                     </div>
                   </figure>
                   <!-- JQUERY -->
-                  <figure class="col-md-4 col-xs-4">
+                  <figure class="col-xs-3">
                     <div class="lang-logo-ctn">
                       <img src="images/icons/languages/jquery-plain.svg" class="img-responsive" title="jQuery" alt="jQuery">
                       <h1 class="language-name text-center"><strong>jQuery</strong></h1>
                     </div>
                   </figure>
                   <!-- ANGULARJS -->
-                  <figure class="col-md-4 col-xs-4">
+                  <figure class="col-xs-3">
                     <div class="lang-logo-ctn">
                       <img src="images/icons/languages/angularjs-plain.svg" class="img-responsive" title="AngularJS" alt="AngularJS">
                       <h1 class="language-name text-center"><strong>AngularJS</strong></h1>
@@ -148,25 +307,25 @@
               </div>
             </div>
             <!-- BACK END -->
-            <div class="col-md-5">
+            <div class="col-md-6">
               <h3 class="subtitle cms">// back-end + database<span class="underscore">|</span></h3>
               <div class="row margin-bot-30">
                 <!-- PHP -->
-                <figure class="col-md-4 col-xs-4">
+                <figure class="col-xs-3">
                   <div class="lang-logo-ctn">
                     <img src="images/icons/languages/php-plain.svg" title="PHP" alt="PHP">
                     <h1 class="language-name text-center"><strong>PHP</strong></h1>
                   </div>
                 </figure>
                 <!-- SYMFONY -->
-                <figure class="col-md-4 col-xs-4">
+                <figure class="col-xs-3">
                   <div class="lang-logo-ctn">
                     <img src="images/icons/languages/symfony_white_03.png" title="Symfony 3.3" alt="Symfony 3.3" class="img-responsive">
                     <h1 class="language-name text-center"><strong>Symfony 3.3</strong></h1>
                   </div>
                 </figure>
                 <!-- MYSQL -->
-                <figure class="col-md-4 col-xs-4">
+                <figure class="col-xs-3">
                   <div class="lang-logo-ctn">
                     <img src="images/icons/languages/mysql-plain.svg" title="MySQL" alt="MySQL">
                     <h1 class="language-name text-center"><strong>SQL/MySQL</strong></h1>
@@ -180,7 +339,7 @@
                 </div>
               </div>
               <div class="row">
-                <figure class="col-md-4 col-xs-4">
+                <figure class="col-xs-3">
                   <div class="lang-logo-ctn">
                     <img src="images/icons/languages/wordpress-plain.svg" title="WordPress" alt="WordPress">
                     <h1 class="language-name text-center"><strong>WordPress</strong></h1>
@@ -193,269 +352,54 @@
           </div>
         </div>
       </div>
-      <div class="gradient-line"></div>
-    </div>
+      <div class="gradient-line grad-bottom"></div>
+    </section>
 
-    </div>
-    <div class="baby-ctn creations-ctn ">
-      <article id="work" class="creations no-txt ">
-        <h2>$ my-work<span class="underscore">_</span></h2>
-      </article>
-      <div class="container">
-
-        <div class="row projects-row">
-
-          <div class="col-md-4">
-            <a href="https://springmacrame.com/" class="hvr-underline-from-center" target="_blank">
-              <img class="img-responsive" src="images/projects/spring-macrame/spring-macrame.png" alt="Spring Macramé">
-              <div class="overlay">
-                <h2>Spring Macramé<br> <small>Avril - Mai 2017 - Projet personnel</small></h2>
-                <div class="project-desc">
-                  <p class="text-center">Création d'un site e-commerce</p>
-                  <strong>Missions / Technos / Langages utilisés :</strong>
-                  <ul class="chevron-list">
-                    <li>Création du site sur WordPress</li>
-                    <li>Utilisation de WooCommerce</li>
-                    <li>Paiement sécurisé via Stripe</li>
-                    <li>Utilisation d'un thème Premium + Visual Composer</li>
-                    <li>Référencement via Yoast SEO</li>
-                  </ul>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="http://face-sudprovence.org/" class="hvr-underline-from-center" target="_blank">
-              <img class="img-responsive" src="images/projects/face-sp/face-sp.png" alt="FACE Sud Provence">
-              <div class="overlay">
-                <h2>FACE Sud Provence<br> <small>Mars - Mai 2017 - Projet associatif</small></h2>
-                <div class="project-desc">
-                  <p class="text-center">Refonte du site face-sud-provence.org <br/>
-                    <span class="red-span"><strong>Projet en cours</strong></span></p>
-                  <strong>Missions / Technos / Langages utilisés :</strong>
-                  <ul class="chevron-list">
-                    <li>Refonte du site sur WordPress</li>
-                    <li>Refonte des catégories du site pour une meilleure UX</li>
-                    <li>Utilisation d'un thème Premium + Visual Composer</li>
-                  </ul>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="https://alexandradra.github.io/makeyt-yourself-afterwork/" class="hvr-underline-from-center" target="_blank">
-              <img class="img-responsive" src="images/projects/afterwork/afterwork_simplonmars.png" alt="Afterwork SIMPLonMARS Makeyt Yourself">
-              <div class="overlay">
-                <h2>Makey't Yourself - Game Catalog<br> <small>Avril 2017 - SIMPLonMARS</small></h2>
-                <div class="project-desc">
-                  <p class="text-center"> Réalisation d'un catalogue de jeux pour l'afterwork SIMPLonMARS <br> Jeux développés avec Ryhad Boughanmi et Elise Brodin</p>
-                  <strong>Missions / Technos / Langages utilisés :</strong>
-                  <ul class="chevron-list">
-                    <li>Utilisation d'un Makey Makey : carte programmable permettant de transformer tout conducteur d'électricité en manette de jeu</li>
-                    <li>Jeux développés en JavaScript natif + Scratch</li>
-                  </ul>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="row projects-row">
-          <div class="col-md-4">
-            <a href="https://alexandradra.github.io/aerorangers/" class="hvr-underline-from-center" target="_blank">
-              <img class="img-responsive" src="images/projects/aerorangers/aerorangers.png" alt="Stage Aeroweb">
-              <div class="overlay">
-                <h2>Stage Aeroweb<br> <small>Avril 2017 - École Centrale de Marseille</small></h2>
-                <div class="project-desc">
-                  <p class="text-center">Stage d'initiation (2 jours) à l'aéronautique et au web</p>
-                  <ul class="chevron-list">
-                    <li>Médiation numérique auprès de collégiens de 4° et 3°</li>
-                    <li>Projet en partenariat avec Échanges Phocéens et Airbus Helicopters</li>
-                    <li>Pliages d'avions en papier suivant plusieurs contraintes techniques</li>
-                    <li>Réalisation d'une page web de présentation</li>
-                  </ul>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a data-toggle="modal" class="hvr-underline-from-center" data-target="#myModal">
-              <img class="img-responsive" src="images/wagaia2.png" alt="Agence Web Wagaia">
-              <div class="overlay">
-                <h2>Agence Web Wagaia <br> <small>Mars 2017 - Stage </small></h2>
-                <div class="project-desc">
-                  <p class="text-center">Stage en Agence Web dans le cadre de ma formation à SIMPLonMARS</p>
-                  <strong>Missions / Technos / Langages utilisés :</strong>
-                  <ul class="chevron-list">
-                    <li>Réalisation de 18 designs</li>
-                    <li>Intégration d'un site one-page</li>
-                    <li>HTML / CSS / Bootstrap</li>
-                    <li>JavaScript / jQuery</li>
-                    <li>PHP / MySQL</li>
-                  </ul>
-                </div>
-              </div>
-            </a>
-            <!-- </div> -->
-            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Réalisations @ Agence Wagaia</h4>
-                  </div>
-                  <div class="modal-body">
-                    Modal under construction
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <a href="https://alexandradra.github.io/meteorite-landings/" class="hvr-underline-from-center" target="_blank">
-              <img class="img-responsive" src="images/projects/meteorite-landings/meteorite-landings.png" alt="Projet Data/plug - Meteorite Landings">
-              <div class="overlay">
-                <h2>Projet Data/Plug : Meteorite Landings <br> <small>Février 2017 - SIMPLonMARS</small></h2>
-                <div class="project-desc">
-                  <p class="text-center">Mise en page d'une Open data fournie par la NASA avec l'API Google Maps</p>
-                  <strong>Technos / Langages utilisés :</strong>
-                  <ul class="chevron-list">
-                    <li>HTML / CSS / Bootstrap</li>
-                    <li>JavaScript / jQuery</li>
-                  </ul>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="row projects-row">
-          <div class="col-md-4">
-            <a href="https://ryderblack.github.io/pillowmate/" class="hvr-underline-from-center" target="_blank">
-              <img class="img-responsive" src="images/projects/pillowmate/pillowmate.png" alt="Projet PilloMate MOC 2017">
-              <div class="overlay">
-                <h2>Pillowmate <br> <small>Février 2017 - École Centrale de Marseille</small></h2>
-                <div class="project-desc">
-                  <p class="text-center">Participation au Makers Original Challenge : Start-up week-end en mode "makers" organisé par le Fablab de Centrale Marseille </p>
-                  <ul class="chevron-list">
-                    <li>Création en 48h d'un réveil olfactif connecté</li>
-                    <li>Utilisation d'un Raspberry Pi3</li>
-                    <li>Modélisation 3D</li>
-                    <li>Découpage laser</li>
-                  </ul>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a href="https://alexandradra.github.io/super_race/" class="hvr-underline-from-center" target="_blank">
-              <img class="img-responsive" src="images/projects/super-race/01-super-race-home.png" alt="Super Race !">
-              <div class="overlay">
-                <h2>Projet XY : Super Race <br> <small>Décembre 2016 - SIMPLonMARS</small></h2>
-                <div class="project-desc">
-                  <p class="text-center">Réalisation d'un mini jeu en JavaScript</p>
-                  <strong>Technos / Langages utilisés :</strong>
-                  <ul class="chevron-list">
-                    <li>HTML / CSS</li>
-                    <li>Bootstrap</li>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                  </ul>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a href="https://github.com/simplonmars3/ateliers-mediation/wiki/Groupe-2-Cycle-1" class="hvr-underline-from-center" target="_blank">
-              <img class="img-responsive" src="images/echanges-pho-prevert.JPG" alt="Echanges Phocéens Prévert">
-              <div class="overlay">
-                <h2>Échanges Phocéens <br> <small>Décembre 2016 - Collège Prévert <br> Février 2017 - Collège Izzo </small></h2>
-                <div class="project-desc">
-                  <p class="text-center">Projets de médiations numérique en partenariat avec l'association Échange Phocéens de l'École Centrale de Marseille</p>
-                  <ul class="chevron-list">
-                    <li>Initiation aux métiers du web auprès de 4° et 3° (création d'une page web, Hour of Code)</li>
-                    <li>Sensibilisation à l'égalité Femmes/Hommes</li>
-                  </ul>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="row projects-row">
-          <div class="col-md-4">
-            <a href="https://smontel.github.io/TROMBIonMARS/" class="hvr-underline-from-center" target="_blank">
-              <img class="img-responsive" src="images/projects/trombi/02-trombi.png" alt="Trombinoscope">
-              <div class="overlay">
-                <h2>Trombinoscope SIMPLonMARS 3 <br> <small>Novembre 2016 - SIMPLonMARS</small></h2>
-                <div class="project-desc">
-                  <p class="text-center">Customisation du trombinoscope des promos SIMPLonMARS</p>
-                  <strong>Technos / Langages utilisés :</strong>
-                  <ul class="chevron-list">
-                    <li>HTML / CSS</li>
-                    <li>JavaScript</li>
-                    <li>Framework CSS "maison" : SIMPLonSTRAP</li>
-                  </ul>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-4">
-            <a href="https://valdiss.github.io/romanphoto/" class="hvr-underline-from-center" target="_blank">
-              <img class="img-responsive " src="images/projects/roman-photo/01-roman-photo.png" alt="Roman Photo">
-              <div class="overlay">
-                <h2>Roman-Photo <br> <small>Novembre 2016 - SIMPLonMARS</small></h2>
-                <div class="project-desc">
-                  <p class="text-center">Premier projet de groupe : réalisation d'un roman-photo web </p>
-                  <strong>Technos / Langages utilisés :</strong>
-                  <ul class="chevron-list">
-                    <li>HTML / CSS</li>
-                  </ul>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="gradient-line"></div>
-    </div>
-
-    </div>
-
-    <div class="baby-ctn background-ctn " id="background">
-
-
+    <!-- CV -->
+    <section class="page-section background-ctn " id="background">
+      <div class="gradient-line grad-top"></div>
       <div class="container">
         <div class="row">
-          <div class="col-md-5 col-md-offset-1 fadeInLeft">
-            <article class="background no-txt ">
-              <h2>$ working-experience<span class="underscore">...</span></h2>
+          <div class="col-md-6">
+            <article class="background ">
+              <h2>$ expérience-pro<span class="underscore">...</span></h2>
               <ul class="exp">
                 <li>
                   <div class="exp-left">
-                    <span class="icon-alex"><img src="images/icons/noun_581057_cc.png" alt="Glasses" class="glasses"></span>
+                    <span class="icon-alex">
+                      <img src="images/icons/noun_581057_cc.png">
+                    </span>
                     <h3>
-                                      <a
-                                    href="http://www.bolle-safety.fr" target="_blank">Agence Wagaia</a>
-                                    </h3>
+                      <a href="https://garder-mes-enfants.fr" target="_blank">Garder-mes-enfants.fr</a>
+                    </h3>
                   </div>
                   <div class="exp-right">
-                    <p class="workingtime">Stage : Mars 2017</p>
+                    <p class="workingtime">Depuis Juillet 2017 </p>
                   </div>
-                  <p>Développeuse web (HTML, CSS, Bootstrap, jQuery, PHP, SQL) <br> Création de 18 designs validés par les clients finaux <br> Intégration (PHP) <a href="http://www.lightcomm.org/" target="_blank" class="dashed-hover">d'un site one-page</a></p>
+                  <p><strong>UX Designer</strong> : refonte graphique de la totalité de la plateforme, développement de nouvelles fonctionnalités, créations de maquettes (Sketch) <br>
+                    <strong>Chargée de mission web</strong> : développement du CRM (Crisp), community management, rédaction de contenu (FAQ et blog)
+                  </p>
                 </li>
                 <li>
                   <div class="exp-left">
-                    <span class="icon-alex"><img src="images/icons/noun_668201_cc.png" alt="Glasses" class="glasses"></span>
+                    <span class="icon-alex"><img src="images/icons/noun_581057_cc.png"></span>
                     <h3>
-                                      <a
-                                    href="http://www.bolle-safety.fr" target="_blank">Bollé Safety</a>
-                                    </h3>
+                      <a href="https://www.wagaia.com/" target="_blank">Agence Wagaia</a>
+                    </h3>
+                  </div>
+                  <div class="exp-right">
+                    <p class="workingtime">Stage : Mars 2017 / Missions Freelance depuis Juin 2017</p>
+                  </div>
+                  <p>Développeuse full-stack (HTML, CSS, Bootstrap, jQuery, PHP, SQL) <br>
+                    Maquettes de sites, intégrations de designs .psd <br>
+                    Intégration (PHP) <a href="http://www.lightcomm.org/" target="_blank" class="dashed-hover">d'un site one-page</a></p>
+                </li>
+                <li>
+                  <div class="exp-left">
+                    <span class="icon-alex"><img src="images/icons/noun_668201_cc.png"></span>
+                    <h3>
+                      <a href="http://www.bolle-safety.fr" target="_blank">Bollé Safety</a>
+                    </h3>
                   </div>
                   <div class="exp-right">
                     <p class="workingtime"> 2013 - 2016</p>
@@ -464,10 +408,10 @@
                 </li>
                 <li>
                   <div class="exp-left">
-                    <span class="icon-alex"><img src="images/icons/noun_545335_cc.png" alt="Lightning" class="lightning"></span>
+                    <span class="icon-alex"><img src="images/icons/noun_545335_cc.png"></span>
                     <h3>
-                                    <a href="https://www.edf.fr/" target="_blank">EDF</a>
-                                    </h3>
+                      <a href="https://www.edf.fr/" target="_blank">EDF</a>
+                    </h3>
                   </div>
                   <div class="exp-right">
                     <p class="workingtime"> 2010 - 2012</p>
@@ -476,10 +420,10 @@
                 </li>
                 <li>
                   <div class="exp-left">
-                    <span class="icon-alex"><img src="images/icons/noun_612992_cc.png" alt="Union Jack" class="union"></span>
+                    <span class="icon-alex"><img src="images/icons/noun_612992_cc.png"></span>
                     <h3>
-                                      <a href="http://www.rhythmsoflife.org.uk/" target="_blank">Rhythms of Life</a>
-                                    </h3>
+                      <a href="http://www.rhythmsoflife.org.uk/" target="_blank">Rhythms of Life</a>
+                    </h3>
                   </div>
                   <div class="exp-right">
                     <p class="workingtime"> 2011</p>
@@ -488,7 +432,7 @@
                 </li>
                 <li>
                   <div class="exp-left">
-                    <span class="icon-alex"><img src="images/icons/noun_784265_cc.png" alt="Friends" class="friends"></span>
+                    <span class="icon-alex"><img src="images/icons/noun_784265_cc.png"></span>
                     <h3>Association Echo</h3>
                   </div>
                   <div class="exp-right">
@@ -499,10 +443,22 @@
               </ul>
             </article>
           </div>
-          <div class="col-md-6 fadeInLeft">
-            <article class="studies no-txt ">
-              <h2>$ studies<span class="underscore">_</span></h2>
+          <div class="col-md-6">
+            <article class="studies ">
+              <h2>$ formation<span class="underscore">_</span></h2>
               <ul class="exp">
+                <li>
+                  <div class="exp-left">
+                    <h3><a href="https://iut.univ-amu.fr/diplomes/licence-professionnelle-management-gestion-organisations-charge-projet-digital" target="_blank">Licence Chargée de Projet Digital (MANTIC)</a></h3>
+                  </div>
+                  <div class="exp-right">
+                    <p class="workingtime">2017/2018</p>
+                  </div>
+                  <p><a href="https://iut.univ-amu.fr/" target="_blank">IUT St. Jérôme</a>, Marseille <br>
+                    <b>Major de promotion - Mention Très Bien</b>
+                  </p>
+                  <p>Marketing digital, gestion de projet, référencement, CMS, entrepreneuriat, etc.</p>
+                </li>
                 <li>
                   <div class="exp-left">
                     <h3>Formation Symfony 3.3</h3>
@@ -510,17 +466,17 @@
                   <div class="exp-right">
                     <p class="workingtime">06/2017</p>
                   </div>
-                  <p>Dispensée par <a href="http://www.poweredbyac.com/formateur-php-symfony-wordpress-marseille-aix/" target="_blank"  class="dashed-hover">Armand Carlier</a> - Human Booster <br>
-                  4 semaines de formation</p>
+                  <p>Dispensée par <a href="http://www.poweredbyac.com/formateur-php-symfony-wordpress-marseille-aix/" target="_blank" class="dashed-hover">Armand Carlier</a> - Human Booster <br>
+                    4 semaines de formation</p>
                 </li>
                 <li>
                   <div class="exp-left">
-                    <h3><a href="http://simplonmars.eu/" target="_blank" class="dashed-hover">SIMPLonMARS</a></h3>
+                    <h3><a href="https://passerelle-numerique.fr" target="_blank" class="dashed-hover">Passerelle Numérique (SIMPLonMARS)</a></h3>
                   </div>
                   <div class="exp-right">
                     <p class="workingtime">10/2016 – 05/2017</p>
                   </div>
-                  <p><a href="https://www.centrale-marseille.fr/fr/simplonmars" target="_blank" class="dashed-hover">Ecole Centrale, Marseille</a><br/> Formation de développeuse web</p>
+                  <p><a href="https://www.centrale-marseille.fr/fr/simplonmars" target="_blank" class="dashed-hover">Ecole Centrale, Marseille</a><br /> Formation de développeuse web</p>
                 </li>
                 <li>
                   <div class="exp-left">
@@ -529,7 +485,7 @@
                   <div class="exp-right">
                     <p class="workingtime">2010 – 2012</p>
                   </div>
-                  <p><a href="http://www.ciefalyon.com/">CIEFA, Lyon </a><br/> Alternance chez EDF</p>
+                  <p><a href="http://www.ciefalyon.com/">CIEFA, Lyon </a><br /> Alternance chez EDF</p>
                 </li>
                 <li>
                   <div class="exp-left">
@@ -554,109 +510,102 @@
           </div>
         </div>
       </div>
-      <div class="gradient-line"></div>
-    </div>
+      <div class="gradient-line grad-bottom"></div>
+    </section>
 
-    <!-- <div class="baby-ctn trophies-ctn ">
-            <article class="trophies no-txt ">
-                <h2>$ achievements<span class="underscore">_</span></h2>
-            </article>
-            <div class="gradient-line"></div>
-        </div> -->
-
-    <div id="contact" class="baby-ctn contact-ctn ">
-
-      <article class="contact no-txt ">
-        <h2>$ <span class="small-emoji">☎</span> contact-me <span class="underscore">!</span></h2>
-        <div class="container contact-links">
-          <!-- GITHUB -->
-          <div class="row">
-            <div class="col-md-offset-3 col-md-1 col-xs-3">
-              <a href="https://github.com/alexandradra" target="_blank">
-                <img src="images/icons/social-networks/github-original.png" alt="Github">
-              </a>
-            </div>
-            <div class="col-md-5 col-xs-9 link-row">
-              <a href="https://github.com/alexandradra" target="_blank" class="red">github.com/alexandradra</a>
-            </div>
-          </div>
-          <!-- LINKEDIN -->
-          <div class="row">
-            <div class="col-md-offset-3 col-md-1 col-xs-3">
-              <a href="https://www.linkedin.com/in/alexandra-dubost/" target="_blank">
-                <img src="images/icons/social-networks/linkedin-original.png" alt="LinkedIn">
-              </a>
-            </div>
-            <div class="col-md-5 col-xs-9 link-row">
-              <a href="https://www.linkedin.com/in/alexandra-dubost/" target="_blank" class="green">linkedin.com/in/alexandra-dubost</a>
-            </div>
-          </div>
-          <!-- TWITTER -->
-          <div class="row">
-            <div class="col-md-offset-3 col-md-1 col-xs-3">
-              <a href="https://twitter.com/Alexandradra_" target="_blank">
-                <img src="images/icons/social-networks/twitter-original.png" alt="Twitter">
-              </a>
-            </div>
-            <div class="col-md-5 col-xs-9 link-row">
-              <a href="https://twitter.com/Alexandradra_" target="_blank" class="blue">twitter.com/Alexandradra_</a>
-            </div>
-          </div>
-          <!-- EMAIL -->
-          <div class="row">
-            <div class="col-md-offset-3 col-md-1 col-xs-3">
-              <a href="http://www.google.com/recaptcha/mailhide/d?k=01f0mKNqdOfUjYpjqXkwR1Tw==&c=mF9nT1DHZirbCxwADay4U4LlSLiWFVhs8Hqw1GSvc-E=" target="_blank">
-                <img src="images/icons/social-networks/email.png" alt="Email me !">
-              </a>
-            </div>
-            <div class="col-md-5 col-xs-9 link-row">
-              <a href="http://www.google.com/recaptcha/mailhide/d?k=01f0mKNqdOfUjYpjqXkwR1Tw==&amp;c=mF9nT1DHZirbCxwADay4U4LlSLiWFVhs8Hqw1GSvc-E=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01f0mKNqdOfUjYpjqXkwR1Tw\x3d\x3d\x26c\x3dmF9nT1DHZirbCxwADay4U4LlSLiWFVhs8Hqw1GSvc-E\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
-                title="Reveal this e-mail address" class="red">a...@gmail.com</a>
-            </div>
-          </div>
-          <!-- FAX -->
-          <div class="row">
-            <div class="col-md-offset-3 col-md-1 col-xs-3">
-              <a href="https://media.giphy.com/media/1iLp3kFxAXpAc8mc/giphy.gif" target="_blank">
-                <img src="images/icons/social-networks/fax.png" alt="Envoie moi un FAX !">
-              </a>
-            </div>
-            <div class="col-md-5 col-xs-9 link-row">
-              <a href="https://media.giphy.com/media/1iLp3kFxAXpAc8mc/giphy.gif" target="_blank" class="green">FAX</a>
-            </div>
+    <!-- CONTACT -->
+    <section id="contact" class="page-section contact-ctn">
+      <div class="gradient-line grad-top"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-10">
+            <h2>$ <span class="small-emoji">☎</span> contact<span class="underscore">_</span></h2>
           </div>
         </div>
-      </article>
-      <div class="gradient-line last"></div>
-    </div>
+        <article class="contact no-txt">
+          <div class=" contact-links">
+            <!-- GITHUB -->
+            <div class="row">
+              <div class="col-md-offset-2 col-md-1 col-xs-3">
+                <a href="https://github.com/alexandradra" target="_blank">
+                  <img src="images/icons/social-networks/github-original.png" alt="Github">
+                </a>
+              </div>
+              <div class="col-md-8 col-xs-9 link-row">
+                <a href="https://github.com/alexandradra" target="_blank" class="red">github.com/alexandradra</a>
+              </div>
+            </div>
+            <!-- LINKEDIN -->
+            <div class="row">
+              <div class="col-md-offset-2 col-md-1 col-xs-3">
+                <a href="https://www.linkedin.com/in/alexandra-dubost/" target="_blank">
+                  <img src="images/icons/social-networks/linkedin-original.png" alt="LinkedIn">
+                </a>
+              </div>
+              <div class="col-md-8 col-xs-9 link-row">
+                <a href="https://www.linkedin.com/in/alexandra-dubost/" target="_blank" class="green">linkedin.com/in/alexandra-dubost</a>
+              </div>
+            </div>
+            <!-- TWITTER -->
+            <!-- <div class="row">
+              <div class="col-md-offset-3 col-md-1 col-xs-3">
+                <a href="https://twitter.com/Alexandradra_" target="_blank">
+                  <img src="images/icons/social-networks/twitter-original.png" alt="Twitter">
+                </a>
+              </div>
+              <div class="col-md-5 col-xs-9 link-row">
+                <a href="https://twitter.com/Alexandradra_" target="_blank" class="blue">twitter.com/Alexandradra_</a>
+              </div>
+            </div> -->
+            <!-- EMAIL -->
+            <div class="row">
+              <div class="col-md-offset-2 col-md-1 col-xs-3">
+                <a href="http://www.google.com/recaptcha/mailhide/d?k=01f0mKNqdOfUjYpjqXkwR1Tw==&c=mF9nT1DHZirbCxwADay4U4LlSLiWFVhs8Hqw1GSvc-E=" target="_blank">
+                  <img src="images/icons/social-networks/email.png" alt="Email me !">
+                </a>
+              </div>
+              <div class="col-md-8 col-xs-9 link-row">
+                <a href="http://www.google.com/recaptcha/mailhide/d?k=01f0mKNqdOfUjYpjqXkwR1Tw==&amp;c=mF9nT1DHZirbCxwADay4U4LlSLiWFVhs8Hqw1GSvc-E=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01f0mKNqdOfUjYpjqXkwR1Tw\x3d\x3d\x26c\x3dmF9nT1DHZirbCxwADay4U4LlSLiWFVhs8Hqw1GSvc-E\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+                  title="Reveal this e-mail address" class="red">a...@gmail.com</a>
+              </div>
+            </div>
+            <!-- FAX -->
+            <div class="row">
+              <div class="col-md-offset-2 col-md-1 col-xs-3">
+                <a href="https://media.giphy.com/media/1iLp3kFxAXpAc8mc/giphy.gif" target="_blank">
+                  <img src="images/icons/social-networks/fax.png" alt="Envoie moi un FAX !">
+                </a>
+              </div>
+              <div class="col-md-8 col-xs-9 link-row">
+                <a href="https://media.giphy.com/media/1iLp3kFxAXpAc8mc/giphy.gif" target="_blank" class="green">FAX</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="gradient-line grad-bottom last"></div>
+
+    </section>
     <a href="#header" class="up gotocont" id="up"><img src="images/icons/up-02.png" alt="Up !"></a>
-  </section>
+  </main>
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="scripts/jquery-3.1.1.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-  <script src="scripts/jquery.parallax-1.1.js" type="text/javascript" charset="utf-8"></script>
   <script src="scripts/functions.js" type="text/javascript" charset="utf-8"></script>
-  <script src="scripts/scroll.js" type="text/javascript" charset="utf-8"></script>
-  <script src="scripts/nav.js" type="text/javascript" charset="utf-8"></script>
-  <script src="scripts/title.js" type="text/javascript" charset="utf-8"></script>
-  <script src="scripts/up.js" type="text/javascript" charset="utf-8"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91351799-1"></script>
   <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    window.dataLayer = window.dataLayer || [];
 
-    ga('create', 'UA-91351799-1', 'auto');
-    ga('send', 'pageview');
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-91351799-1');
   </script>
+
 </body>
 
 </html>
