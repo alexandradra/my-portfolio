@@ -706,6 +706,9 @@ h1 a, .wrap {
 .projects-row {
   margin-bottom: 25px;
 }
+.single-project {
+  margin-bottom: 30px;
+}
 
 .single-project a {
   padding-bottom: 15px;
