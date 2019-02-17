@@ -1,4 +1,13 @@
 /*RESET*/
+::-moz-selection {
+  color: white;
+  background-color: #2223DD;
+}
+
+::selection {
+  color: white;
+  background-color: #2223DD;
+}
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
