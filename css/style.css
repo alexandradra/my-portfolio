@@ -8,9 +8,10 @@
   color: white;
   background-color: #2223DD;
 }
+
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
   font-weight: 400;
   width: 100%;
   height: 100%;
@@ -34,7 +35,12 @@ h2, .projects-row .overlay h3 {
   text-align: center;
   margin-top: 10px;
 }
-
+.project-desc h4, .exp h4 {
+  font-size: 1rem;
+  font-style: italic;
+  opacity: .7;
+  font-weight: 300;
+}
 .page-section h2 {
   margin-bottom: 50px;
   font-size: 2.6rem;
@@ -50,12 +56,13 @@ h3 {
 }
 
 h4.modal-title {
-  font-family: 'VT323', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.7rem;
 }
 
 .subtitle {
   margin-bottom: 3%;
+  margin-top: 3%;
   font-family: 'VT323', monospace;
   font-weight: normal;
   text-align: justify;
@@ -140,10 +147,17 @@ ul.chevron-list {
 }
 
 ul.chevron-list li:before {
-  font-family: 'Glyphicons Halflings';
-  content: '\e258';
+  font-family: "Font Awesome 5 Free";
+  content: "\f054";
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
   margin: 0 5px 0 0px;
-  font-size: 0.8re
+  font-size: 0.8rem;
 }
 
 .modal-header {
@@ -193,11 +207,18 @@ ul.chevron-list li:before {
 /* .background h2, .studies h2 {
   padding: 2.5% 7% 1%;
 } */
-
 .exp {
   position: relative;
 }
-
+.exp>li {
+  margin-bottom: 35px;
+}
+.exp h4 {
+  font-size: .9rem;
+}
+.exp ul {
+  padding-left: 10px;
+}
 .icon-alex img {
   padding: 1px;
   width: 30px;
@@ -205,11 +226,7 @@ ul.chevron-list li:before {
 }
 
 .exp-left, .exp-right {
-  display: inline-block;
-}
-
-.exp-left {
-  width: 65%;
+  display: flex;
 }
 
 /*CONTACT*/
@@ -241,8 +258,7 @@ ul.chevron-list li:before {
   padding: 0 6px;
   text-transform: uppercase;
   transition: color .8s cubic-bezier(0.11, 0.7, 0, 1);
-  font-size: 1.1re
-  letter-spacing: .15rem;
+  font-size: 1.1re letter-spacing: .15rem;
   line-height: 1.8;
 }
 
@@ -344,6 +360,7 @@ ul.chevron-list li:before {
     margin: 0 auto;
     display: inline-block;
   }
+
   .exp {
     padding-left: 5px;
   }
@@ -434,7 +451,7 @@ ul.chevron-list li:before {
 
 .main-nav a {
   color: black;
-  font-family: 'VT323', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.5rem;
 }
 
@@ -447,11 +464,9 @@ h1 a, .wrap {
   font-family: 'VT323', monospace;
   font-size: 4.5rem;
   text-shadow:
-    -3px 0 rgba(232, 48, 69, 0.5)
-    ,
-  -4px 0 rgba(97, 204, 49, 0.5),
-  -4px 0 rgba(34, 35, 221, 0.5)
-  ;
+    -3px 0 rgba(232, 48, 69, 0.5),
+    -4px 0 rgba(97, 204, 49, 0.5),
+    -4px 0 rgba(34, 35, 221, 0.5);
 }
 
 .title-big-ctn {
@@ -473,9 +488,11 @@ h1 a, .wrap {
   display: block;
   color: white;
 }
+
 .title-ctn a:hover {
   cursor: default;
 }
+
 .scroll-me {
   box-sizing: border-box;
   /*position: absolute;
@@ -489,7 +506,7 @@ h1 a, .wrap {
 }
 
 /*.scroll-me p {
-    font-family: 'VT323', monospace;
+    font-family: 'Roboto Mono', monospace;
 }*/
 .scroll-me a {}
 
@@ -676,6 +693,7 @@ h1 a, .wrap {
   .overlay {
     min-height: 300px;
   }
+
   .single-project a img {
     width: 100%;
     height: 190px;
@@ -719,6 +737,7 @@ h1 a, .wrap {
 .projects-row {
   margin-bottom: 25px;
 }
+
 .single-project {
   margin-bottom: 30px;
 }
