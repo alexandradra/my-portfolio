@@ -8,6 +8,7 @@ $(document).ready(function() {
     }, speed); // Go
     return false;
   });
+  
   var lastScrollTop = 0;
   $(window).scroll(function(event) {
     var st = $(this).scrollTop();
